@@ -1,0 +1,388 @@
+
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-width {
+    width: 90%;
+}
+
+.food-title {
+    padding: 50px 0 30px 0;
+    text-align: center;
+    color: rgb(45, 48, 61);
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.absolute-fth {
+    position: relative;
+}
+
+.boder-line {
+    border: 1px solid red;
+} 
+
+.text-center {
+    text-align: center;
+}
+
+/* CSS navbar */
+
+
+
+.logo {
+    height: 50px;
+    padding-top: 10px;
+}
+
+.text-nav {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: hsl(0, 73%, 58%);
+    font-weight: bold;
+    line-height: 50px;
+    
+}
+
+.menu-more:hover,
+.contact p a:hover,
+.menu-more-PGmenu:hover,
+.nav-link:hover {
+    color: red;
+}
+
+.clear-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+/* Css search and bg */
+
+.my-bg {
+    background-image: url(../img/bg.jpg);
+    padding: 8% 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.my-search-input:focus {
+    box-shadow: none;
+}
+
+.my-search-btn {
+    background-color: hsl(0, 70%, 59%);
+    color: white;
+}
+
+
+.my-search-btn:hover {
+    background-color: #ea2929;
+    color: white;
+}
+
+/* Css explore food */
+
+.ex-padding-row {
+    padding-bottom: 2.8%;
+}
+
+.ex-food-img {
+    padding: 0 10px;
+    border-radius: 30px;
+}
+
+.ex-food-img-name {
+    position: absolute;
+    color: white;
+    bottom: 10%;
+    left: 39%;
+}
+
+.img-text-FO-wsite {
+    position: absolute;
+    color: white;
+    bottom: 20%;
+    left: 40%;
+    font-size: 1.5rem;
+}
+
+#ex-food {
+    padding-bottom: 2%;
+}
+
+/* Css food menu */
+
+.padding-card {
+    padding: 4% 0 0 2%;
+    padding-right: 0;
+}
+
+#menu-food {
+
+}
+
+.menu-food-bg{
+    background-color: rgb(212, 212, 212);
+    position: relative;
+    padding-bottom: 5%;
+}
+
+.box-card {
+    width: 95%;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.card-bg {
+    background-color: rgb(212, 212, 212);
+    padding-left: 3%;
+}
+
+.card-img {
+    float: left;
+    padding: 0 5%;
+    border-radius: 20px;
+    width: 135%;
+}
+
+.card-content {
+    padding: 0 0 5% 0;
+    float: right;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: gray;
+}
+
+.padding-content {
+    padding-left: 10%;
+}
+
+.food-price {
+    font-size: 1.5rem;
+    margin: 2% 0;
+}
+
+.menu-more {
+    position: absolute;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: hsl(0, 70%, 59%);
+    bottom: 8.5%;
+    left: 47%;
+}
+
+
+
+/* css footer */
+
+    /* Contact */
+.contact ul li{
+    display: inline-block;
+    padding: 1% 1%;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact p a{
+    color: hsl(0, 70%, 59%);
+    text-decoration: none;
+}
+
+
+
+/* Css PAGE food menu */
+.menu-more-PGmenu {
+    position: absolute;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: hsl(0, 70%, 59%);
+    bottom: 6%;
+    left: 47%;
+}
+
+
+
+
+
+
+/* CSS ADMIN WEB */
+
+.padding {
+    padding: 2% 0;
+}
+
+.margin {
+    margin: 2% 0;
+}
+
+.a-color{
+    color: hsl(0, 100%, 71%);
+    text-decoration: none;
+}
+
+.ambit {
+    border-bottom: 1px solid black;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h4{
+    line-height: 30px;
+    border-bottom: 1px solid black;
+    padding: 10px 20px;
+}
+
+.box-table {
+    width: 80%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+
+/* Dashboard */
+    /* CSS navbar admin */
+.admin-navbar li a {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+    /* CSS content */
+.content-bg{
+    background-color: rgb(231, 231, 231);
+    position: relative;
+    padding-bottom: 2%;
+    padding-top: 9%;
+}
+
+.content-title {
+    position: absolute;
+    top: 4%;
+    left: 8%;
+    padding: 1%;
+}
+
+.content-box {
+    width: 98%;
+    height: 100%;
+    background-color: white;
+    padding: 4%;
+}
+
+.content p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+    /* CSS footer */
+.footer-bg {
+    background-color: #e75555;
+}
+
+.admin-footer p {
+    color: white;
+    font-size: 1.2rem;
+    padding: 1%;
+}
+
+
+/* Manage User */
+
+
+.user-padding-top{
+    padding-top: 5%;
+}
+
+.padding-col {
+    padding: 0 2.5px;
+}
+
+.margin-row {
+    margin-bottom: 1%;
+}
+
+.btn-add-user {
+    position: absolute;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px;
+    left: 9%;
+}
+
+        /* text-table */
+.row > .padding-col > p {
+    font-size: 1.1rem;
+    font-weight:500;
+    padding: 5px 20px;
+}
+
+.actions a {
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.change {
+    background-color:dodgerblue;
+    color: white;
+}
+
+.update {
+    background-color:mediumspringgreen;
+    color: black;
+    font-weight: bold;
+}
+
+.delete {
+    background-color: rgb(234, 98, 98);
+    color: white;
+    font-weight: bold;
+}
+
+
+    /* Manage category */
+.table-img {
+    width: 175px;
+}
+
+td, th {
+    font-size: 1.2rem;
+}
+
+.table-padding-top {
+    margin-top: 3%;
+}
+
+.btn-add {
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px;
+}
+
+
+
+    /* Css Manage Order */
+.delivered {
+    color: forestgreen;
+}
+
+.cancelled {
+    color: #ea2929;
+}
+
+.update-order {
+    text-decoration: none;
+    font-weight: bold;
+}
